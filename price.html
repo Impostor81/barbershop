@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Прайс - Барбершоп "Бородинский"</title>
+  <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="index-body page-body">
+
+  <header class="main-header">
+    <nav class="main-navigation container">
+      <a href="index.html" class="main-header-logo">
+        <img src="img/svg/logo.svg" width="111" height="24" alt="Logo barbershop">
+      </a>
+      <ul class="site-navigation">
+        <li><a href="#">Информация</a></li>
+        <li><a href="#">Новости</a></li>
+        <li><a href="price.html">Прайс-лист</a></li>
+        <li><a href="catalog.html">Магазин</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
+      <div class="user-navigation">
+        <a href="#" class="login-link">Вход</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main container">
+    <h1 class="page-title">Прайс-лист</h1>
+    <ul class="breadcrumbs price">
+      <li>
+        <a href="index.html">Главная</a>
+      </li>
+      <li class="breadcrumbs-current">
+        <a>Прайс-лист</a>
+      </li>
+    </ul>
+
+    <section class="men-classic">
+      <h2 class="lines">Истинно мужская классика</h2>
+      <div class="men-classic-wrapper">
+        <div class="left">
+          <div class="left-top">
+            <h3>Мы используем только<br> лучшие средства:</h3>
+            <ul class="price-list">
+              <li>Baxter of California</li>
+              <li>Mr Natty</li>
+              <li>Suavecito</li>
+              <li>Malin+Goetz</li>
+            </ul>
+          </div>
+          <div class="left-bottom">
+            <h3>Несколько слов о нас:</h3>
+            <p>
+              Наша парикмахерская занимается исключительно мужскими стрижками. Стрижка каждого клиента для нас - это уникальная и продуманная до мелочей работа. Мы не работаем на количество, мы делаем качество.
+            </p>
+          </div>
+        </div>
+        <div class="right">
+          <div class="right-top">
+            <h3>Цены на услуги<br> наших мастеров:</h3>
+            <table class="price-table">
+              <tr>
+                <td>Стрижка</td>
+                <td>400 грн</td>
+              </tr>
+              <tr>
+                <td>Стрижка бороды</td>
+                <td>150 грн</td>
+              </tr>
+              <tr>
+                <td>Накрутка усов</td>
+                <td>90 грн</td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="right-bottom">
+            <p>
+              Наша мастерская расположена в центре города, поэтому<br> сделать стильную стрижку можно в любое время, даже в<br> обеденный перерерыв. Здесь вы можете погрузиться в удобную<br> для вас атмосферу, чувствовать себя комфортно и свободно!
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-contacts">
+        <p>
+          Барбершоп "Бородинский"<br>
+          Адрес: г. Херсон, ул. 200-лет Херсона, 30/1<br>
+          <a href="#">Как нас найти?</a><br>
+          Телефон: (0552) 12-34-56
+        </p>
+        </div>
+
+        <div class="social">
+          <ul>
+            <li><a href="#"><img src="img/svg/facebook.svg" alt="facebook"></a></li>
+            <li><a href="#"><img src="img/svg/instagram.svg" alt="instagram"></a></li>
+            <li><a href="#"><img src="img/svg/vk.svg" alt="Vkontakte"></a></li>
+          </ul>
+        </div>
+
+        <div class="creator">
+          <h3>Разработано:</h3>
+          <a href="#">Maltsev Studio</a>
+        </div>
+    </div>
+    </footer>
+
+    <section class="login modal hidden">
+      <h2>Личный кабинет</h2>
+      <p>Введите, пожалуйста, свой логин и пароль</p>
+      <form action="" method="post">
+        <p>
+          <input class="login-user" type="email" id="login-login" name="login" placeholder="email@example.com">
+        </p>
+        <p>
+          <input class="login-password" type="password" id="login-password" name="password" placeholder="*******">
+        </p>
+        <p class="login-wrapper">
+
+          <label>
+            <input type="checkbox" name="remember" checked>
+            Запомните меня
+          </label>
+          <a class="restore" href="#!">Я забыл пароль!</a>
+        </p>
+        <button type="button" class="button">Войти</button>
+      </form>
+      <button type="button" class="modal-close" aria-label="Закрыть"></button>
+  </section>
+  <script src="js/script.js"></script>
+</body>
+</html>
